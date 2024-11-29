@@ -1,37 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Data Entry Tool Web Application  
 
-## Getting Started
+The **Data Entry Tool Web Application** is a lightweight and intuitive tool built with **Next.js**, designed to simplify the process of updating Excel or CSV files. The app is mobile-responsive, user-friendly, and eliminates the need for account creation, making it accessible to anyone with a web browser.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features  
+- **File Upload**: Upload Excel or CSV files to update directly within the app.  
+- **Column Selection**: Choose the specific column in your file to edit.  
+- **Individual Score Entry**: Assign scores to individual matriculation numbers.  
+- **Group Score Entry**: Assign the same score to multiple matriculation numbers simultaneously.  
+- **Matriculation Number Validation**: Ensures valid matriculation number formats for accuracy.  
+- **File Download**: Download the updated file in Excel or CSV format with the changes applied.  
+- **Responsive Design**: Fully optimized for both desktop and mobile devices.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack  
+- **Frontend Framework**: Next.js  
+- **Styling**: Tailwind CSS  
+- **File Handling**: FileReader API for processing Excel and CSV files.  
+- **Excel/CSV Manipulation**: Libraries like `papaparse` for CSV and `xlsx` for Excel handling.  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## How to Use  
+1. **Navigate to the App**  
+   Simply visit the hosted web application link (to be added after deployment).  
 
-To learn more about Next.js, take a look at the following resources:
+2. **Upload Your File**  
+   Click the upload button and select your Excel or CSV file.  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Choose a Column**  
+   The app will display the available columns in your file. Select the one you want to update.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **Enter Scores**  
+   - For individual scores: Enter the matriculation number and the corresponding score.  
+   - For group scores: Enter multiple matriculation numbers and a single score to assign to all.  
 
-## Deploy on Vercel
+5. **Download Your Updated File**  
+   Save the modified file to your device.  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# data-entry-tool" 
+## Development  
+To run the app locally:  
+1. Clone the repository:  
+   ```bash  
+   git clone https://github.com/your-username/data-entry-tool-web.git  
+   cd data-entry-tool-web  
+   ```  
+2. Install dependencies:  
+   ```bash  
+   npm install  
+   ```  
+3. Start the development server:  
+   ```bash  
+   npm run dev  
+   ```  
+4. Open your browser and navigate to `http://localhost:3000`.  
+
+---
+
+## Contribution  
+Contributions are welcome! Feel free to submit issues or pull requests to improve the tool.  
+
+---
+
+## License  
+This project is licensed under the MIT License.  
+
+---  
+
+**Designed for efficiency and ease of use. Start automating your data entry today!**  
